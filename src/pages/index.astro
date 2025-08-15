@@ -1,50 +1,74 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+// src/pages/index.astro
 ---
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usman Ahmed – CISO / BSO Telenor Pakistan</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      color: #333;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 720px;
+      margin: auto;
+      background: #fff;
+      padding: 2.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #555;
+      margin-top: 0;
+    }
+    p {
+      margin: 1.2rem 0;
+    }
+    .btn-portfolio {
+      display: inline-block;
+      margin-top: 1.8rem;
+      padding: 0.7rem 1.4rem;
+      background: #0070f3;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+    .btn-portfolio:hover {
+      background: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Usman Ahmed</h1>
+    <h2>CISO / BSO, Telenor Pakistan</h2>
+    <p>
+      Usman Ahmed is a distinguished and results-driven Chief Information Security Officer with over 14 years of deep, hands-on experience in safeguarding organizations against evolving cyber threats. Far from being just another security professional, Usman has mastered a rare combination of technical expertise, offensive security capabilities, and strategic vision — enabling him to design and lead comprehensive security programs that deliver measurable results.
+    </p>
+    <p>
+      A certified SOC professional, Usman has built and led high-performance Security Operations Centers capable of real-time threat detection, incident response, and advanced threat hunting. His offensive security expertise in penetration testing, vulnerability exploitation, and red-teaming allows him to think like an attacker, proactively identifying weaknesses before they can be exploited.
+    </p>
+    <p>
+      This offensive mindset, paired with his secure coding and architecture design skills, ensures robust security at both the operational and development levels.
+    </p>
+    <p>
+      Usman’s strategic acumen extends to system integration, enterprise-level project management, and long-term security roadmaps that align with business objectives. He excels at bridging the gap between technical teams and executive leadership, enabling informed decision-making and embedding a culture of security across organizations.
+    </p>
+    <p>
+      His leadership and contributions have earned him unprecedented recognition: Usman is the only CISO in the industry to win back-to-back PTA Cyber Security Awards for CTDISR compliance, ranking #1 in both 2024 and 2025 — a testament to his ability to deliver world-class security outcomes year after year.
